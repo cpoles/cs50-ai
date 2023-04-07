@@ -13,8 +13,6 @@ What follows are functions that we’ve left up to you to implement!</p>
 
 <h2 id="specification">Specification</h2>
 
-<div class="alert" data-alert="warning" role="alert"><p>An automated tool assists the staff in enforcing the constraints in the below specification. Your submission will fail if any of these are not handled properly, if you import modules other than those explicitly allowed, or if you modify functions other than as permitted.</p></div>
-
 <p>Complete the implementations of <code class="language-plaintext highlighter-rouge">player</code>, <code class="language-plaintext highlighter-rouge">actions</code>, <code class="language-plaintext highlighter-rouge">result</code>, <code class="language-plaintext highlighter-rouge">winner</code>, <code class="language-plaintext highlighter-rouge">terminal</code>, <code class="language-plaintext highlighter-rouge">utility</code>, and <code class="language-plaintext highlighter-rouge">minimax</code>.</p>
 
 <ul>

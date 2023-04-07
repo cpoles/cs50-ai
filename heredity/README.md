@@ -37,7 +37,7 @@ Lily:
 
 <p>We can attempt to model all of these relationships by forming a Bayesian Network of all the relevant variables, as in the one below, which considers a family of two parents and a single child.</p>
 
-<p><img src="BayesianNetwork.png" alt="Bayesian Network for genetic traits"></p>
+![Screenshot](./images/BayesianNetwork.png)
 
 <p>Each person in the family has a <code class="language-plaintext highlighter-rouge">Gene</code> random variable representing how many copies of a particular gene (e.g., the hearing impairment version of GJB2) a person has: a value that is 0, 1, or 2. Each person in the family also has a <code class="language-plaintext highlighter-rouge">Trait</code> random variable, which is <code class="language-plaintext highlighter-rouge">yes</code> or <code class="language-plaintext highlighter-rouge">no</code> depending on whether that person expresses a trait (e.g., hearing impairment) based on that gene. There’s an arrow from each person’s <code class="language-plaintext highlighter-rouge">Gene</code> variable to their <code class="language-plaintext highlighter-rouge">Trait</code> variable to encode the idea that a person’s genes affect the probability that they have a particular trait. Meanwhile, there’s also an arrow from both the mother and father’s <code class="language-plaintext highlighter-rouge">Gene</code> random variable to their child’s <code class="language-plaintext highlighter-rouge">Gene</code> random variable: the child’s genes are dependent on the genes of their parents.</p>
 
